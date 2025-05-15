@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detona Halph</title>
+    <link rel="shortcut icon" href="./src/images/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./src/styles/resets.css">
+    <link rel="stylesheet" href="./src/styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=PT+Sans+Narrow:wght@400;700&family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="conteiner">
+        <div class="menu">
+            <div class="menu-times">
+                <h2>Time Left:</h2>
+                <h2 class="pont" id="time-left">0</h2>
+            </div>
+            <div class="menu-score">
+                <h2>Your Score:</h2>
+                <h2 class="pont" id="score">0</h2>
+            </div>
+            <div class="menu-lives">
+                <img src="https://github.com/digitalinnovationone/jsgame-detona-ralph/blob/main/src/images/player.png?raw=true" alt="foto do jogador" height="80px" width="80px">
+                <h2 class="pont">x3</h2>
+            </div>
+        </div>
+        <div class="panel">
+            <div class="panel-row">
+                <div class="square" id="1"></div>
+                <div class="square" id="2"></div>
+                <div class="square" id="3"></div>
+            </div>
+
+            <div class="panel-row">
+                <div class="square" id="4"></div>
+                <div class="square enemy" id="5"></div>
+                <div class="square" id="6"></div>
+            </div>
+
+            <div class="panel-row">
+                <div class="square" id="7"></div>
+                <div class="square" id="8"></div>
+                <div class="square" id="9"></div>
+            </div>
+        </div>
+    </section>
+    <script defer src="./src/scripts/engine.js"></script>
+</body>
+</html>
